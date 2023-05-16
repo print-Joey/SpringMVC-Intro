@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/../Spring/S_1_QuickStart/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SMVC_1_QuickStart" />
+        <module name="SMVC_6_Rest" />
+        <module name="SMVC_3_RequestMapping" />
+        <module name="SMVC_5_Response" />
+        <module name="SMVC_2_BeanLoad" />
+        <module name="SMVC_4_ReqParam" />
+        <module name="SMVC_7_Rest_CS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="SMVC_6_Rest" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
